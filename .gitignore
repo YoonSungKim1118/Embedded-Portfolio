@@ -1,0 +1,17 @@
+build/
+*.o
+*.a
+*.elf
+*.bin
+__pycache__/
+*.pyc
+.venv/
+
+# mlp2c 에서 make 가 만들어 내는 산출물
+mlp2c/example/model.npz
+mlp2c/example/refcase.npz
+mlp2c/example/weights.h
+mlp2c/example/refcase.h
+
+.vscode/
+.idea/
